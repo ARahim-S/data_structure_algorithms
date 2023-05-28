@@ -73,5 +73,15 @@ Bir daha parçalıyoruz
 <br>
 ***Time complexity -- O(logn)' dir.***
 ---
+# PROJECT - 3
+---
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+<br>
+Root x = 3
+<br>
+Sağında büyükler solunda küçükler yer alır
+<br>
+Sağındakiler - 7,5,8,6,7,4
+Solundakiler - 1,0,2
 
 
