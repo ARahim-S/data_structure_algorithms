@@ -32,7 +32,7 @@ Bu sefer de en baştaki 4 değer hariç diğer kalanlar arasından en küçüğe
 <br>
 Listemiz sıralanmış oldu.
 <br>
-***Big-O notation ise O(n)' dir. 18 average case kapsamına girer.***
+***Big-O notation ise O(n^2)' dir. 18 average case kapsamına girer.***
 <br>
 ---
 <br>
@@ -46,5 +46,32 @@ Listemiz sıralanmış oldu.
 <br>
 4.[2,3,4,5,7,8,9,15,6]
 <br>
+
+---
+# PROJECT - 2
+---
+<br>
+[16,21,11,8,12,22] -> Merge Sort
+<br>
+Öncelikle diziyi ikiye ayıyoruz
+<br>
+[16,21,11] -- [8,12,22]
+<br>
+Bir daha ayırıyoruz
+<br>
+[16] [21,11] -- [8] [12,22]
+<br>
+Bir daha parçalıyoruz
+<br>
+[16] [21] [11] -- [8] [12] [22]
+<br>
+[16] [11,21] -- [8] [12,22]
+<br>
+[11,16,21] -- [8.12.22]
+<br>
+[8,11,12,16,21,22]
+<br>
+***Time complexity -- O(logn)' dir.***
+---
 
 
